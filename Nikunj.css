@@ -1,0 +1,82 @@
+* {
+  	box-sizing: border-box;
+}
+body {
+	background: url("1.jpg") no-repeat;
+	background-size: 100% 110%; width: 100%;
+}
+.top {
+	height:100px;
+}
+.right {
+	width: 50%;
+	float:right;
+}
+.right ul li a	{
+	color: white;
+}
+.right ul li {
+	font-size: 25px;
+	float: right;
+	padding: 10px 10px;
+}
+.left {
+	font-family: 'Abel';
+  	padding: 10px;
+	margin: 60px;
+	height: 100px;
+  	float: left;
+  	font-size: 20px;
+  	color: tomato;
+}
+span.h {
+  	display: inline;
+  	height: 60px;
+  	padding: 5px;
+  	border: 2px solid black;
+}
+header.b {
+	font-family: 'Aclonica';
+	margin:40px;
+	text-align: left;
+        font-size: 55px;
+        color: yellow;
+}
+nav {
+	float: left;
+	width: 30%;
+	height: 400px;
+	padding:40px;
+}
+h1 {
+	margin-left:100px;
+	margin-top:50px;
+	margin-bottom:50px;font-size:200%;
+	font-family: 'Annie Use Your Telescope';
+}
+article {
+	width: 70%;
+	height: 400px;
+	padding-right: 50px;
+	color:yellow;
+	font-size:40px;
+	float:left;
+	font-family: 'Annie Use Your Telescope';
+}
+ul {
+	margin:70px;
+	font-size:25px;
+	color:#ccc;
+	font-family: 'Sofia';
+	list-style-type:none;
+}
+.img {
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px; 
+	box-shadow: 10px 10px 6px grey;
+}
+footer {
+  	padding: 10px;
+  	text-align: right;
+  	color: #fff;
+}
